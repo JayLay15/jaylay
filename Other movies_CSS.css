@@ -1,0 +1,406 @@
+header{
+	position: sticky;
+	top: 0;
+	z-index: 1;
+    text-align: right;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: orange;
+    padding: 15px 30px 15px 15px;
+    background: black;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 110px;
+	width: 95%;
+	min-width: 490px;
+	box-sizing: border-box;
+}
+
+header a{
+	font-size: 20px;
+}
+.ava{
+	display: block;
+	margin-right: 1330px;
+	margin-top: -48px;
+	margin-bottom: -15px;
+	user-select: none;
+}
+.syl{
+	margin-left: 20px;
+	text-decoration: none;
+	color: lightgreen;
+
+}
+
+.syl:hover{
+	color: red;
+	font-size: 21px;
+}
+.syl:active{
+	color: orange;
+}
+.syls{
+	margin-top: 15px;
+}
+body{
+ height: 100%;
+ position: relative;
+ background-image: url(scream4.jpg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center center;
+ transition: background-position 0.3s ease-in-out;
+}
+
+.reklama{
+	float: right;
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+	border: 3px solid gray;
+	color: black;
+	background: white;
+	width: 32%;
+	box-sizing: border-box;
+	min-width: 295px;
+	z-index: 3;
+	margin-top: 30px;
+@media(max-width: 955px){
+	font-size: 0;
+	opacity: 0
+}
+	
+}
+.sv{
+	width: 90px;
+	height: 90px;
+	margin-right: 5%;
+	float: left;
+	pointer-events: none;
+@media(max-width: 955px){
+	width: 0;
+	height: 0;
+}
+	
+}
+.icon{
+	width: 25px;
+	height: 25px;
+	margin-right: 78%;
+	margin-bottom: -30px;
+@media(max-width: 955px){
+	width: 0;
+	height: 0;
+}
+}
+.sms{
+	margin-top: -90px; 
+	font-size: 20px;
+	font-family: Arial;
+	line-height: 20px;
+	transition: margin-top 1s ease;
+	
+@media(max-width: 1243px){
+	margin-top: -100px
+}
+@media(max-width: 1114px){
+	font-size: 17.5px;
+}
+@media(max-width: 955px){
+	font-size: 0
+}
+}
+.sod{
+	margin-left: 20px;
+}
+span{
+	color: green;
+	font-size: 15px;
+	transition: font-size 1s ease;
+@media(max-width: 1114px){
+	font-size: 15px;
+}
+@media(max-width: 955px){
+	font-size: 0
+}
+}
+.hour{
+	margin-top: 50px; 
+	margin-left: 35px;
+	font-family: arial;
+@media(max-width: 1357px){
+	margin-top: 30px
+}
+@media(max-width: 1243px){
+	margin-top: 10px
+}
+@media(max-width: 1114px){
+	margin-top: 20px
+}
+
+
+}
+.otv{
+	color: white;
+	display: block;
+	margin-left: auto;
+	margin-right: 30px;
+	margin-top: 10px; 
+	border: 3px solid darkblue;
+	background: blue;
+	width: 90px;
+	text-align: center;
+	display: block;
+	cursor: not-allowed;
+	user-select: none;
+
+
+}
+.svetlana{
+	border: 3px solid blue;
+	border-radius: 10px 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 130px;
+
+}
+.one{
+	font-size: 20px;
+	color: red;	
+	margin-right: 22px;
+	text-align: right;
+	display: block;
+	margin-bottom: -22px;
+@media(max-width: 955px){
+	font-size: 0
+}
+}
+
+.film{
+	font-size: 20px;
+	margin-left: 10px;
+}
+.allfilm{
+	border: 5px ridge orange;
+	background: rgba(200, 255, 255, 0.9);
+	width: 60%;
+	z-index: -1;
+	margin-top: -40px;
+	z-index: 2;
+	min-width: 490px;
+}
+
+.scream{
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	margin-top: -5px;
+	padding-bottom: 30px;
+	
+}
+.op{
+	margin-top: 20px;
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+FOOTER{
+	position: relative;
+	border: 5px ridge orange;
+	background: black;
+	margin: 0 auto;
+	margin-top: 120px;
+	padding: 15px 30px 15px 15px;
+	width: 95%;
+	min-width: 580px;
+	box-sizing: border-box;
+	min-width: 490px;
+
+}
+.znak{
+	color: while;
+	text-align: right;
+	margin-bottom: -10px;
+	color: white;
+}
+.svia{
+	color: white;
+	text-align: right;
+	margin-right: 355px;
+	margin-bottom: 10px;
+	transition: font-size 1s ease;
+@media(max-width: 624px){
+	font-size: 0px;
+}
+	
+}
+
+ .insta,
+  .tele {
+	font-size: 30px;
+    position: absolute;
+@media (max-width: 660px) {
+	margin-left: 50px;
+	}
+
+
+  }
+.insta{
+     right: 445px;
+	 top: 65px;
+	 color: red;
+	 transition: font-size 3s ease;
+@media (min-width: 1px) and (min-height: 1px) {
+	font-size: 25px;
+	top: 55px;
+	right: 430px;
+}
+
+@media (min-width: 720px) and (min-height: 1280px) {
+	font-size: 25px;
+	top: 55px;
+	right: 430px;
+}
+
+@media (max-width: 1024px) and (max-height: 1280px){
+	font-size: 25px;
+	top: 55px;
+	right: 430px;
+}
+
+@media (max-width: 2560px) and (max-height: 1440px){
+	font-size: 25px;
+	top: 55px;
+	right: 430px;
+}
+@media(max-width: 624px){
+	font-size: 0px;
+}
+}
+
+
+
+.tele{
+	 right: 395px;
+	 top: 65px;
+	 color: blue;
+	 transition: font-size 3s ease;
+@media (min-width: 1px) and (min-height: 1px){
+	font-size: 25px;
+	top: 55px;
+	right: 385px;
+}
+@media (min-width: 720px) and (min-height: 1280px){
+	font-size: 25px;
+	top: 55px;
+	right: 385px;
+}
+
+@media (max-width: 1024px) and (max-height: 1280px){
+	font-size: 25px;
+	top: 55px;
+	right: 385px;
+}
+@media (max-width: 2560px) and (max-height: 1440px){
+	font-size: 25px;
+	top: 55px;
+	right: 385px;
+}
+@media(max-width: 624px){
+	font-size: 0px;
+}
+}
+
+.ava2{
+	display: block;
+	margin-right: 1330px;
+	margin-top: -78px;
+	margin-bottom: -15px;
+	user-select: none;
+
+@media(max-width: 624px){
+	margin-top: -80px;
+	margin-bottom: -15px;
+}
+}
+		
+.syll{
+	font-size: 20px;
+	text-decoration: none;
+	color: lightgreen;
+	line-height: 25px;
+@media(max-width: 810px) {
+	font-size: 18px;
+}
+}
+
+.sylss{
+	text-align: right;
+	margin-right: 580px;
+	margin-bottom: -35px;
+	margin-top: -50px;
+	transition: margin-right 1s ease;
+@media(max-width: 900px) {
+	margin-right: 490px;
+}
+@media(max-width: 810px) {
+	margin-right: 245px;
+}
+@media(max-width: 624px){
+	margin-top: -20px;
+	margin-bottom: -30px;
+}
+}
+
+.syll:hover{
+	color: red;
+	font-size: 21px;
+}
+
+.syll:active{
+	color: orange;
+}
+
+.syll2{
+	margin-right: -41.5px;
+@media(max-width: 810px) {
+	margin-right: -36.7px;
+}
+}
+.syll3{
+	margin-right: 21.4px;
+@media(max-width: 810px) {
+	margin-right: 19px;
+}
+}
+.tele:hover{
+	color: lightblue;
+}
+.insta:hover{
+	color: pink;
+}
+.tele:active{
+	color: white;
+}
+.insta:active{
+	color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 85vh;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  flex-shrink: 0;
+}
+
+
